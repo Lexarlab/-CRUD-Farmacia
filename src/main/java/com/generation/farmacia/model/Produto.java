@@ -100,6 +100,13 @@ public class Produto {
 		this.data_validade = data_validade;
 	}
 
+	public Categoria getCategoria() {
+		return categoria;
+	}
+
+	public void setCategoria(Categoria categoria) {
+		this.categoria = categoria;
+	}
 
 }
 
